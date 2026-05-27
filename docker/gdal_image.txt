@@ -1,0 +1,10 @@
+GDAL Docker image used for synthetic OSM/PBF generation
+
+Image tag used during development:
+ghcr.io/osgeo/gdal:ubuntu-small-latest
+
+Pinned image reference:
+ghcr.io/osgeo/gdal@sha256:d15d2ef116fde5bf32dbf094cfb007f8c8af1e283d687cd72ae88ad5bd786e66
+
+Purpose:
+Generation of the synthetic OSM/PBF input used by the public reproducibility pipeline.

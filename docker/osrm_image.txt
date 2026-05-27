@@ -1,0 +1,22 @@
+OSRM Docker image used for the thesis pipeline
+
+Image tag used during development:
+osrm/osrm-backend:latest
+
+Pinned image reference:
+osrm/osrm-backend@sha256:af5d4a83fb90086a43b1ae2ca22872e6768766ad5fcbb07a29ff90ec644ee409
+
+Local image ID:
+sha256:af5d4a83fb90086a43b1ae2ca22872e6768766ad5fcbb07a29ff90ec644ee409
+
+OSRM version:
+v5.26.0
+
+Version check command:
+docker run --rm osrm/osrm-backend:latest osrm-routed --version
+
+Routing algorithm:
+CH via osrm-contract
+
+Base Lua profile:
+profiles/car_base.lua

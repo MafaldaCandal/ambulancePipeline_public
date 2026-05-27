@@ -140,10 +140,10 @@ TRANSFER_REGIONS = ["BN", "BZO", "BMW"]
 OSRM_URL = "http://127.0.0.1:5000"
 OSRM_PROFILE = "driving"
 
-OSRM_DOCKER_IMAGE = "osrm/osrm-backend"
+OSRM_DOCKER_IMAGE = "osrm/osrm-backend@sha256:af5d4a83fb90086a43b1ae2ca22872e6768766ad5fcbb07a29ff90ec644ee409"
 OSRM_CONTAINER_NAME = f"osrm_ambulance_{ACTIVE_REGION.lower()}"
 
-GDAL_DOCKER_IMAGE = "ghcr.io/osgeo/gdal:ubuntu-small-latest"
+GDAL_DOCKER_IMAGE = "ghcr.io/osgeo/gdal@sha256:d15d2ef116fde5bf32dbf094cfb007f8c8af1e283d687cd72ae88ad5bd786e66"
 
 OSRM_TEST_ROUTES = {
     "synthetic": ((5.30, 51.60), (5.31, 51.61)),
